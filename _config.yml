@@ -8,7 +8,7 @@ markdown: rdiscount
 # configuration required for some pages
 
 domain: www.dojosp.org
-title: DojoSP
+title: Coding Dojo@SP
 email: 
 
 # configuration for ehancements, uncomment to enable
