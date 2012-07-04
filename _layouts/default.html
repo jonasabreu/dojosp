@@ -9,6 +9,7 @@
     {% if site.feedburner %}
     <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
     {% endif %}
+	<link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="screen" />
     {% if site.google_analytics %}
     <!-- google analytics async -->
     <script type="text/javascript">
@@ -24,9 +25,55 @@
     {% endif %}
   </head>
   <body>
+	
+	<div id="wrapper">
 
-  {{ content}}
+		<div id="header">
+			<h1><a href="http://www.dojosp.org">Coding Dojo@SP</a></h1>
+			<p></p>
+		</div>
 
+		<div id="content">
+		  {{ content}}
+		</div>
+
+		<div id="sidebar">
+		<ul>
+			<li class="widget widget_rss">
+				<div>
+					<h2>
+					<a class='rsswidget' href='http://feeds.feedburner.com/DojoSP' title='Syndicate this content'>
+						<img style='border:0' width='14' height='14' src='/images/rss.png' alt='RSS' /></a> 
+						<a class='rsswidget' href='http://www.dojosp.org' title=''>Dojo SP</a>
+					</h2>
+					<ul>
+					{% for post in site.posts limit:10 %}
+						<li><a class='rsswidget' href='{{ post.url }}' title='{{ post.title}}'>{{post.title}}</a></li>
+				    {% endfor %}
+					</ul>
+				</div>
+			</li>
+			<li id="linkcat-12" class="widget widget_links">
+				<div>
+					<h2>Blog dos Participantes</h2>
+					<ul class='xoxo blogroll'>
+						<li><a href="http://www.dtsato.com/blog/" title="Blog do Danilo Sato">Blog do Danilo Sato</a></li>
+						<li><a href="http://blog.rodrigoflores.org" title="Blog do Flores">Blog do Flores</a></li>
+						<li><a href="http://fmeyer.org/" title="Blog do Meyer">Blog do Meyer</a></li>
+						<li><a href="http://codeache.blogspot.com/" title="Blog do Hugo">CodeAche</a></li>
+						<li><a href="http://vidageek.net/" title="Vidageek">Vidageek</a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+		</div>
+
+		<div id="footer">
+			<p>Based on design by <a href="http://beccary.com" title="Based on Ocadia theme designed by Beccary">Beccary</a> and <a href="http://weblogs.us" title="Based on Ocadia theme sponsored by Weblogs.us">Weblogs.us</a>
+			</p>
+		</div>
+	</div>
+	
   {% if site.github %}
     <a href="http://github.com/{{ site.github.username }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
   {% endif %}

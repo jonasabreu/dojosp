@@ -1,22 +1,8 @@
 ---
 layout: default
 ---
-{% if page.date %} em {{ page.date | date: "%d/%m/%Y"  }}{% if page.last_updated %}, atualizado em {{ page.last_updated | date: "%d/%m/%Y" }}{% endif %}</div>{% endif %}
 
-<div class="content">
-{{ content }}
-</div>
- 
-{% if site.related_posts.size > 0 %}
-<div id="related">
-  <h3>P&aacute;ginas relacionadas</h3>
-  <ul class="nav nav-pills nav-stacked">
-    {% for post in site.related_posts limit:5 %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}
+{% include post_begin.html %}
 
 {% if site.disqus %}
 <div id="comments">
@@ -31,4 +17,12 @@ layout: default
   </script>
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript={{ site.disqus.id }}">comments powered by Disqus.</a></noscript>
 </div>
+
 {% endif %}
+
+	<div class="postnav">
+		<div class="prev">&laquo; <a href="{{page.previous.url}}" rel="prev">{{page.previous.title}}</a></div>
+		<div class="next">&raquo; <a href="{{page.next.url}}" rel="prev">{{page.next.title}}</a></div>
+	</div>
+
+{% include post_end.html %}

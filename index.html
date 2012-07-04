@@ -2,4 +2,8 @@
 layout: default
 ---
 
-Teste!
+{% for page in site.posts limit:10 %}
+	{% include post_begin.html %}
+	{% include post_end.html %}
+{% endfor %}
+

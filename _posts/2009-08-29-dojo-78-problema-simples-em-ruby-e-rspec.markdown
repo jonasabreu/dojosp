@@ -4,6 +4,7 @@ layout: post
 title: "Dojo 78: Problema Simples em ruby e rspec"
 date: 2009-08-29 15:29:12 -03:00
 wordpress_url: http://www.dojosp.org/?p=98
+author: marivb
 ---
 <ul style="font-size: 1em;line-height: 1.5em;margin-top: 1.2em;margin-right: 0px;margin-bottom: 1.2em;margin-left: 2em;padding: 0px">
 	<li><strong>Data:</strong> 25/08/2009</li>

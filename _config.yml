@@ -14,7 +14,7 @@ email:
 # configuration for ehancements, uncomment to enable
 
 feedburner:
-  id: 
+  id: DojoSP
 
 google_analytics:
   account: 

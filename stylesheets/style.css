@@ -1,0 +1,413 @@
+/*  
+Theme Name: Ocadia
+Theme URI: http://beccary.com/goodies/wordpress-themes/
+Description: A two column blue-grey theme, clean yet stylish. 
+Version: 1.41
+Author: Becca Wei
+Author URI: http://beccary.com
+*/
+
+/* Basics */
+
+body {
+	margin: 0;
+	padding: 0;
+	background: white;
+	color: #333;
+	font-size: 78%;
+	font-family: "Lucida Sans Unicode", Tahoma, Geneva, sans-serif;
+	text-align: center;
+}
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 1.2em 0;
+}
+ol, ul {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 1.2em 0 1.2em 2em;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 1.2em 0 0 0;
+	font-family: Georgia, serif; 
+	color: #534B48; 
+}
+h1, h2 {
+	font-size: 1.4em;
+}
+h3 {
+	font-size: 1.3em;
+}
+h4 {
+	font-size: 1.2em;
+}
+h5 {
+	font-size: 1.1em;
+}
+h6 {
+	font-size: 1em;
+}
+a:link {
+	color: #38424c;
+}
+a:visited, a:active {
+	color: #4d5b69;
+}
+a:hover {
+	color: #8CA0B4;
+	text-decoration: none;
+}
+input, textarea, select {
+	background-color: #FFF; 
+	color: #333;
+	font-size: 1em;
+	font-family: "Lucida Sans Unicode", Tahoma, Geneva, sans-serif;
+}
+blockquote {
+	margin: 1.2em 20px;
+	padding: 0.1em 20px;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	background: url(../images/commentaltdojo.png) repeat-y;
+	font-size: 0.9em;
+}
+small {
+	font-size: 0.9em;
+}
+code {
+	font-size: 1.1em;
+	font-family: "Courier New", Courier, monospace;
+	color: #666;
+}
+form {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a img {
+	border: 0;
+}
+
+/* Layout */ 
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 760px;
+	background: #FFF url(../images/wrapperdojo.png) repeat-y;
+	text-align: left;
+}
+#header {
+	width: 760px;
+	height: 132px;
+	background: url(../images/headerdojo.png) no-repeat;
+}
+
+	/* Header styles */
+	#header h1 {
+		margin: 0;
+		padding: 35px 0 0 40px;
+		font-size: 2em;
+		line-height: 40px;
+	}
+	#header h1 a {
+		text-decoration: none;
+	}
+	#header p {
+		margin: 0;
+		padding: 5px 0 0 40px;
+	}
+	
+#content {
+	float: left;
+	margin-top: -12px;
+	padding: 0 10px 0 40px;
+	width: 520px;
+	min-height: 268px;
+	background: none;
+	overflow: visible;
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+	width: 470px;
+} 
+html>body #content {
+	width: 470px;
+}
+#sidebar {
+	float: left;
+	width: 240px;
+	background: none;
+	font-size: 0.9em;
+	overflow: hidden;
+}
+
+	/* Sidebar styles */
+	#sidebar ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		background: url(../images/sidebar2b.gif) repeat-y;
+	}
+	#sidebar ul li {
+		margin: 0;
+		padding: 0 0 1.5em 0;
+		background: url(../images/sidebar-bottomb.gif) no-repeat bottom left;
+		overflow: visible;
+	}
+	#sidebar h2 {
+		margin: 0;
+		padding: 1.2em 40px 0 20px;
+		font-size: 1.1em;
+		background: url(../images/sidebar-topb.gif) no-repeat;
+	}
+	#sidebar h2 a {
+		color: #534B48;
+		text-decoration: none;
+	}
+	#sidebar h2 a:hover {
+		color: #59708C;
+	}
+	/* Fix our list and paragraph styles */
+	#sidebar p, #sidebar ul ul, #sidebar ul ol {
+		margin: 1em 0 0 0;
+		padding: 0 40px 0 20px;
+	}
+	#sidebar ul ol {
+		margin: 1em 0 0 20px;
+	}
+	#sidebar ul ol li {
+		padding: 0;
+		background: url(../images/bulletdojo.png) no-repeat 2000px 0;
+		/* IE goes buggy with background: none; */
+	}
+	#sidebar ul ul {
+		background: none;
+	}
+	#sidebar ul ul ul {
+		margin: 0;
+		padding: 0 0 0 0.8em;
+		background: none;
+	}
+	#sidebar ul ul li {
+		padding: 0 0 0 1.5em;
+		background: url(../images/bulletdojo.png) no-repeat 0 0.2em;
+	}
+
+#footer {
+	clear: both;
+	margin: 0 20px;
+	padding: 25px 4px 0 4px;
+	background: url(../images/footer.gif) no-repeat;
+}
+
+	/* Footer styles */
+	#footer p {
+		margin: 0;
+		padding: 0.5em 20px;
+		background-color: #808080;
+		font-size: 0.9em;
+	}
+	#footer a:hover, #footer a:active {
+		color: #38424c;
+		text-decoration: none;
+	}
+	
+/* Blog */
+
+.pagetitle {
+	margin: 1.2em 0 0 0;
+}
+.post {
+	padding: 1.2em 0 0 0;
+}
+.storydate {
+	float: left;
+	margin: 0 0.5em 0 0;
+	padding: 0 0.5em 0 0;
+	border-right: 1px solid #CCC;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	color: #999;
+}
+.storytitle {
+	float: left;
+	margin: 0;
+}
+.meta {
+	margin: 0;
+	padding: 0.5em 0 0 3em;
+} 
+.feedback {
+	padding: 0 0 0 3em;
+}
+.meta, .feedback {
+	clear: both;
+	font-size: 0.9em;
+	color: #999;
+	background: url(../images/decodojo.png) no-repeat bottom left;	
+}
+.permalink {
+	margin: 0 1.5em 0 0;
+	padding: 0 0 0 1.2em;
+	background: url(../images/perma.gif) no-repeat center left;
+}
+.commentslink {
+	padding: 0 0 0 1.5em;
+	background: url(../images/comments.gif) no-repeat center left;
+}
+.storytitle a, .meta a, .feedback a, .commentauthor a, .commentmeta a, #comments a {
+	text-decoration: none;
+}
+
+.postnav {
+	width: 100%;
+	padding: 1.2em 0 0 0;
+	overflow: auto;
+}
+.prev {
+	float: left;
+}
+.next {
+	float: right;
+}
+
+/* Comments */
+
+#commentlist {
+	margin: 1.2em 0;
+	padding: 0;
+	list-style-type: none;
+}
+#commentlist li {
+	margin: 1em 0;
+	padding: 0 20px;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	background: url(../images/commentdojo.png) repeat-y;
+}
+.commentalt {
+	background: url(../images/commentaltdojo.png) repeat-y !important;
+}
+.commentauthor {
+	margin: 1em 0 0 0;
+}
+.commentauthor a {
+	font-weight: bold;
+}
+.commentmeta {
+	margin-top: 0;
+	font-size: 0.9em;
+}
+#comment {
+	width: 98%;
+}
+
+/* Widgets and Etc */
+
+#sidebar #search p, .widget_search div div {
+	margin: 0 0 0.3em 0;
+	padding: 2em 0 0 20px;
+	background: url(../images/sidebar-topb.gif) no-repeat;
+}
+#sidebar #s {
+	margin-bottom: 2px;
+	width: 175px;
+}
+
+/* Calendar */
+
+#calendar div, #calendar.widget_calendar div div {
+	padding: 0 40px 0.2em 20px;
+	background: url(../images/sidebar-topb.gif) no-repeat;
+}
+#calendar.widget_calendar div {
+	padding: 0;
+	background: none;
+}
+.widget_calendar h2 {
+	display: none;
+}
+#wp-calendar {
+	margin: 0;
+	width: 180px;
+	border: 1px solid #CCC;
+	background: #F4F4F4;
+	line-height: 1.2em;
+	text-align: center;
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+	width: 178px;
+} 
+html>body #wp-calendar {
+	width: 178px;
+}
+#wp-calendar caption {
+	margin: 0;
+	padding: 1.4em 0 0.6em 0;
+	color: #534B48;
+	font-size: 1.1em;
+	font-family: Georgia, serif; 
+	font-weight: bold;
+	text-align: left;
+}
+#wp-calendar td {
+	margin: 2px;
+	background: #FFF;
+}
+#wp-calendar td a {
+	display: block;
+	width: 100%;
+}
+#wp-calendar td.pad {
+	background: transparent;
+}
+#wp-calendar td#next, #wp-calendar td#prev {
+	padding: 0.1em 2px;
+	background: transparent;
+}
+#wp-calendar td#next a, #wp-calendar td#prev a {
+	display: inline;
+}
+#wp-calendar td#next {
+	text-align: right;
+}
+#wp-calendar td#prev {
+	text-align: left;
+}
+
+/* Image Borders */
+
+div.image {
+	margin: 1.2em 0;
+}
+
+div.imagecenter {
+	margin: 1.2em 0;
+	text-align: center;
+}
+div.imagecenter img {
+	margin: 0 auto;
+}
+
+div.imageleft, img.imageleft {
+	float: left;
+	margin: 0 15px 0.2em 0;
+	padding: 0;
+}
+ 
+div.imageright, img.imageright {
+	float: right;
+	margin: 0 0 0.2em 15px;
+	padding: 0;
+}
+
+div.image img, img.image,
+div.imagecenter img,
+div.imageleft img, img.imageleft,
+div.imageright img, img.imageright {
+	padding: 5px;
+	border: 1px solid #CCC;
+	background: #FFF;
+}
