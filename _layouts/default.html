@@ -6,8 +6,6 @@
     <meta name="description" content="{{ page.description }}" />
     {% endif %}
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link rel="stylesheet" media="screen" href="/stylesheets/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" media="screen" href="/stylesheets/style.css" type="text/css" />
     {% if site.feedburner %}
     <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
     {% endif %}
@@ -26,23 +24,8 @@
     {% endif %}
   </head>
   <body>
-		 <div class="navbar">
-    	<div class="navbar-inner">
-			  <div id="bar" class="container">
-			    		<a id="site-name" class="brand" href="/">{{ site.title }}</a>
-							<a href="http://feeds.feedburner.com/{{ site.feedburner.id }}"><img src="/images/feed.png" alt="feed" /></a>
-		    </div>
-		  </div>
-    </div>
-    <div class="container">
-		<div class="row">
-			<div class="span3">
-				<ul class="nav nav-stacked nav-tabs">
-				</ul>
-			</div>
-		</div>
-    </div>
 
+  {{ content}}
 
   {% if site.github %}
     <a href="http://github.com/{{ site.github.username }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>

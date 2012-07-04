@@ -1,0 +1,29 @@
+--- 
+wordpress_id: 34
+layout: post
+title: Latinoware 2008
+date: 2008-11-03 04:40:40 -02:00
+wordpress_url: http://www.dojosp.org/?p=34
+---
+<ul>
+	<li><strong>CÃ³digo</strong>: <a href="http://github.com/dojosp/participant-s-projects/tree/9a787ec3cd3e532cb890c37ae261794b0d1777c6/LATINOWARE-Python">no github</a></li>
+</ul>
+Durante a semana passada, estive no <a href="http://2008.latinoware.org/" target="_blank">Latinoware</a> a convite da associaÃ§Ã£o Python Brasil, para realizar uma sessÃ£o de dojo em python, onde resolvemos o <a href="http://acmicpc-live-archive.uva.es/nuevoportal/data/problem.php?p=3547" target="_blank">Entertainment</a>, o mesmo problema do Uberdojo 3 (que ainda nÃ£o tem post :P).
+
+A sessÃ£o foi muito boa, nÃ£o devendo nada para um dojo em SÃ£o Paulo, tinha por volta de 20 pessoas dentre elas o pessoal da comunidade Python (Luciano Ramalho, Marco AndrÃ©, Ramiro Luz, JS e o Rodrigo) entre outros participantes do evento. A princÃ­pio havia uma diferenÃ§a bem nÃ­tida entre os participantes, algumas pessoas, eu inclusive, sabiam pouco ou quase nada de python, ao passo que a outra parte era formada por gurus. Muitas coisas deram muito certo, o parking-lot por exemplo ajudou bastante, toda vez que alguÃ©m dispersava com alguma discussÃ£o, rapidamente transformÃ¡vamos o tÃ³pico em um postit amarelo informando que o assunto seria discutido apÃ³s a retrospectiva. Aplicamos estritamente a regra de 7 minutos, mas quando o piloto nÃ£o conhecia muito de python, e eventualmente perdÃ­amos tempo discutindo, dÃ¡vamos 2 minutro extras.
+
+A culpa Ã© do Fabs foi uma maneira muito divertida e interessante de tirar o medo de errar da plateia, permitindo que o moderador/culpado (o Fabs :p) pudesse lembrar os participantes das prÃ¡ticas do dojo, se desculpando por nÃ£o ter ensinado corretamente ^.^.
+
+Acatando espertamente o conselho do Hugo, tivemos uma longa retrospectiva de mais de uma hora, e foi pouco. Haviam muitos post-its vermelhos, mas os participantes estavam felizes com isso. Na maior parte dos casos, esses vermelhos eram discussÃµes interessantes ou duvidas do tipo como comeÃ§ar um dojo.
+
+Basicamente, entre as coisas negativas tivemos o equipamento, o formato da sala e alguns detalhes como nÃ£o ter lousa. Dentre os positivos, eu particularmente achei que o fato de ser um minicurso, em uma sala pequena com, contribui para tudo correr bem. De fato, fazer dojo como fizemos no fisl, com uma platÃ©ia de 200+ pessoas Ã© muito mais difÃ­cil.
+
+NÃ£o conseguimos discutir todo o parking lot -.-, pois estourarÃ­amos o tempo.
+
+Eu tambÃ©m gostei muito de Foz, principalmente das cataratas. VocÃª pode ver fotos da viagem no <a href="http://picasaweb.google.com/fabriciosn/Latinoware2008#" target="_blank">meu picasa</a> , enquanto o Fernando Meyer nÃ£o paga a conta que nos deve no Flickr.
+
+Provavelmente, lÃ¡ para o fim da semana, haverÃ¡ um post sobre a viagem, no <a href="http://www.vidageek.net" target="_blank">blog do vidageek</a>.
+
+Por fim, gostaria de deixar em nome do dojo, meus mais sinceros agradecimentos ao pessoal da <a href="http://www.pythonbrasil.com.br/moin.cgi/" target="_blank">AssociaÃ§Ã£o Python Brasil</a>, que pode proporcionar ao nosso dojo ser divulgado ao me levar para falar no evento.
+
+Valeu ^.^.

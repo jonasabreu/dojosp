@@ -1,0 +1,28 @@
+--- 
+wordpress_id: 12
+layout: post
+title: Dojo Tarde - 04
+date: 2008-04-25 15:06:46 -03:00
+wordpress_url: http://www.dojosp.epistemol.net/?p=7
+---
+Participantes: Hugo, Mari, Flores, Breno
+Problema: <a title="The Next Palindrome" href="http://www.spoj.pl/problems/PALIN/" target="_blank">The Next Palindrome</a>
+Linguagem: Smalltalk
+Ambiente: Squeak
+Fonte: <a href="http://www.dojosp.epistemol.net/wp-content/uploads/2008/04/dojotarde04-palin.mcz">dojotarde04-palin</a>
+
+Por termos resolvido um problema muito fÃ¡cil no Dojo anterior, resolvemos pegar um problema um pouco mais difÃ­cil.
+
+Ao invÃ©s de criar uma classe com a implementaÃ§Ã£o do Next Palindrome, o Hugo sugeriu criarmos um mÃ©todo NextPalindrome na classe de inteiros de Small Talk.  O que no fim das contas se mostrou ser algo legal: nunca haviamos feito nada deste tipo em algum outro Dojo Tarde.
+
+Uma estratÃ©gia sugerida pelo Hugo para resolvermos o problema foi irmos comparando os dÃ­gitos a partir da metade com seu correspondente e ir montando o prÃ³ximo palÃ­ndromo.
+
+Inicialmente comeÃ§amos tratando os casos para um dÃ­gito: para nÃºmeros de 1 a 8 Ã© trivial pois o prÃ³ximo palÃ­ndromo Ã© o prÃ³ximo nÃºmero. Prosseguindo: tentamos fazer o caso do 9, com resposta esperada 11, mas infelizmente sentimos que qualquer soluÃ§Ã£o, mesmo nÃ£o tÃ£o elegante, talvez precisasse de mais cÃ³digo. Colocamos entÃ£o esse teste no Expected Failures e continuamos nossa programaÃ§Ã£o para tratar os casos de dois dÃ­gitos. Decidimos converter o nÃºmero para string, para assim acessar mais facilmente cada dÃ­gito.  Para a soluÃ§Ã£o de dois dÃ­gitos, utilizamos a idÃ©ia de que o prÃ³ximo palÃ­ndromo seria o prÃ³ximo mÃºltiplo de 11 a partir do nÃºmero. Para trÃªs dÃ­gitos, tentamos implementar o algoritmo pensado anteriormente tratando primeiro os casos que sÃ³ necessitÃ¡vamos  mexer no nÃºmero do meio (como 808), mas acabou nosso tempo de programaÃ§Ã£o.
+
+Achamos um "bug" no test Runner do Squeak: quando temos uma Expected Failure, um cÃ³digo sem "Failures" fica com cor amarela no Test Runner, enquanto um cÃ³digo com "Failures" fica com cor verde.
+
+Coisas Boas: ImplementaÃ§Ã£o de Mensagem em classe "raÃ­z"+, SmallTalk++, digitAt, Method Finder, raisedTo, Blog, "121 at: 2".
+
+Coisas Ruins: Pouca Gente++, Test Runner Bugado+++, Falta de PrecedÃªncia Confunde, Sono++, Controlar o tempo com o celular Ã© ruim, Fugimos do Algoritmo (?), Fugimos do Baby Step(?), Problema nÃ£o tÃ£o complicado mas nÃ£o terminamos, cÃ³digo feio, "String at: 2 asString asInteger"++.
+
+A se pensar: Como trazer mais gente? Utilizar algoritmos jÃ¡ conhecidos de primeira ou ir construindo o algoritmo aos poucos?
