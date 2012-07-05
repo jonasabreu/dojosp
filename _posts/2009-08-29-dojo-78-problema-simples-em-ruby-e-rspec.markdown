@@ -14,7 +14,7 @@ author: marivb
 	<li><strong>Código:</strong> no <a href="http://github.com/dojosp/participant-s-projects/tree/master/">github</a>, em breve</li>
 	<li><strong>Formato</strong><strong>: </strong>Kata</li>
 </ul>
-O Flores preparou um kata simples para mostrar <a href="http://rspec.info/">rspec</a>, umÂ framework de BDD para ruby. Este kata é baseado numa brincadeira onde pessoas em crianças em circulo falam cada uma um número em ordem. Se o número contiver 3 ou for múltiplo de 3 então a criança deve dizer "Fizz" ao invéz do número, se o número contiver 5 ou for múltiplo de 5 então a criança deve dizer "Buzz", por fim se as duas condições forem verdadeiras então o a criança precisa dizer "Fizzbuzz". O problema é fazer um programa que jogue esse jogo para números de 1 até 100.
+O Flores preparou um kata simples para mostrar <a href="http://rspec.info/">rspec</a>, um framework de BDD para ruby. Este kata é baseado numa brincadeira onde pessoas em crianças em circulo falam cada uma um número em ordem. Se o número contiver 3 ou for múltiplo de 3 então a criança deve dizer "Fizz" ao invéz do número, se o número contiver 5 ou for múltiplo de 5 então a criança deve dizer "Buzz", por fim se as duas condições forem verdadeiras então o a criança precisa dizer "Fizzbuzz". O problema é fazer um programa que jogue esse jogo para números de 1 até 100.
 <h3 style="margin-top: 1.2em;margin-right: 0px;margin-bottom: 0px;margin-left: 0px;font-family: Georgia, serif;color: #534b48;font-size: 1.3em">Retrospectiva</h3>
 <p style="font-size: 1em;line-height: 1.5em;margin-top: 1.2em;margin-right: 0px;margin-bottom: 1.2em;margin-left: 0px">Do ruim:</p>
 
