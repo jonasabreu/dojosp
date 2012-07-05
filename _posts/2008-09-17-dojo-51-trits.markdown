@@ -8,42 +8,42 @@ wordpress_url: http://www.dojosp.epistemol.net/?p=26
 <ul>
 	<li><strong>Data:</strong> 15/09/2008</li>
 	<li><strong>Participantes:</strong> Thiago, R, Hugo, Mari, Lameiro, Pac-Man, Vitor, Ramiro e Breno</li>
-	<li><strong>Randori:</strong> Problema dos Trits (na verdade, um derivado), retirado da segunda seletiva da XII Maratona de ProgramaÃ§Ã£o da USP. Utilizamos Haskell com HUnit</li>
+	<li><strong>Randori:</strong> Problema dos Trits (na verdade, um derivado), retirado da segunda seletiva da XII Maratona de Programação da USP. Utilizamos Haskell com HUnit</li>
 	<li><strong>Carta de criatividade:</strong> â€œChallenge The Rulesâ€</li>
-	<li><strong>CÃ³digo: </strong>no <a href="http://github.com/dojosp/participant-s-projects/tree/master/51-trits-haskell">repositÃ³rio do dojo no github</a>.</li>
+	<li><strong>Código: </strong>no <a href="http://github.com/dojosp/participant-s-projects/tree/master/51-trits-haskell">repositório do dojo no github</a>.</li>
 </ul>
-A votaÃ§Ã£o inicial escolheu o problema dos "Trits": receber um nÃºmero inteiro e devolver sua representaÃ§Ã£o em uma base ternÃ¡ria, cujos algarismos vÃ¡lidos sÃ£o "+", "0" e "-" (de valor, respectivamente, 1, 0 e -1). Um nÃºmero nesta base ternÃ¡ria (ou seja, um "trit") representado como a1a2...ak tem valor igual a a1*3^k + a2*3^(k-1) + ... + ak-1*3^1 + ak*3^0. Por exemplo, o trit "+0-" tem valor 1*3^2 + 0*3^1 + (-1)*3^0 = 8.
+A votação inicial escolheu o problema dos "Trits": receber um número inteiro e devolver sua representação em uma base ternária, cujos algarismos válidos são "+", "0" e "-" (de valor, respectivamente, 1, 0 e -1). Um número nesta base ternária (ou seja, um "trit") representado como a1a2...ak tem valor igual a a1*3^k + a2*3^(k-1) + ... + ak-1*3^1 + ak*3^0. Por exemplo, o trit "+0-" tem valor 1*3^2 + 0*3^1 + (-1)*3^0 = 8.
 <h3>Encarando (e mudando) o problema</h3>
-ComeÃ§amos a discutir a abordagem para o problema, mas nÃ£o surgiu nenhum caminho Ã³bvio. O Hugo sugeriu, entÃ£o, comeÃ§armos resolvendo o problema invertido (e mais simples): dado um trit, devolver seu valor inteiro. Como tÃ­nhamos alguns convidados, fizemos uma breve introduÃ§Ã£o ao Dojo antes de partirmos para o problema, e alguns esclarecimentos ao longo da sessÃ£o. Mas mantivemos as janelas de 7 minutos, com o ciclo "teste, cÃ³digo, teste, commit". O cÃ³digo em Haskell foi evoluindo naturalmente, e soluÃ§Ãµes contendo "if" e estruturas semelhante saltaram Ã  vista e foram rapidamente substituÃ­das por construÃ§Ãµes mais eminentemente funcionais.
+Começamos a discutir a abordagem para o problema, mas não surgiu nenhum caminho óbvio. O Hugo sugeriu, então, começarmos resolvendo o problema invertido (e mais simples): dado um trit, devolver seu valor inteiro. Como tínhamos alguns convidados, fizemos uma breve introdução ao Dojo antes de partirmos para o problema, e alguns esclarecimentos ao longo da sessão. Mas mantivemos as janelas de 7 minutos, com o ciclo "teste, código, teste, commit". O código em Haskell foi evoluindo naturalmente, e soluções contendo "if" e estruturas semelhante saltaram à vista e foram rapidamente substituídas por construções mais eminentemente funcionais.
 
-Quase ao final do horÃ¡rio, com todos os participantes jÃ¡ tendo comandado o teclado, terminamos a soluÃ§Ã£o do problema, e todos se disseram confortÃ¡veis com a abrangÃªncia dos testes. Partimos para uma otimizaÃ§Ã£o da soluÃ§Ã£o, que, a esta altura, calculava o tamanho do trit a cada passo da recursÃ£o, mas nÃ£o conseguimos terminar em tempo.
+Quase ao final do horário, com todos os participantes já tendo comandado o teclado, terminamos a solução do problema, e todos se disseram confortáveis com a abrangência dos testes. Partimos para uma otimização da solução, que, a esta altura, calculava o tamanho do trit a cada passo da recursão, mas não conseguimos terminar em tempo.
 <h3>Retrospectiva</h3>
-Assim como no dojo anterior, a quantidade de cartÃµes amarelos foi bem maior do que a de vermelhos (e chegamos a redimensionar os espaÃ§os de cada um, para que os amarelos coubessem no foco do projetor). Apesar de ser um indicador de que todos estÃ£o se divertindo, foi sugerido que talvez estejamos sendo complacente demais, e que devÃ­amos nos focar mais em procurar oportunidades de melhoria. Foi mencionado um palestrante da AgileConf, que mencionou que, no JapÃ£o, nas retrospectivas sÃ³ se discutiam os vermelhos; elogios ficavam para a hora de lazer. Levantou-se a idÃ©ia, entÃ£o, de, nas nossas retrospectivas, discutirmos primeiro os vermelhos, e sÃ³ discutirmos os amarelos e o parking lot junto com a comida.
+Assim como no dojo anterior, a quantidade de cartões amarelos foi bem maior do que a de vermelhos (e chegamos a redimensionar os espaços de cada um, para que os amarelos coubessem no foco do projetor). Apesar de ser um indicador de que todos estão se divertindo, foi sugerido que talvez estejamos sendo complacente demais, e que devíamos nos focar mais em procurar oportunidades de melhoria. Foi mencionado um palestrante da AgileConf, que mencionou que, no Japão, nas retrospectivas só se discutiam os vermelhos; elogios ficavam para a hora de lazer. Levantou-se a idéia, então, de, nas nossas retrospectivas, discutirmos primeiro os vermelhos, e só discutirmos os amarelos e o parking lot junto com a comida.
 
 Dentre os pontos positivos mencionados:
 
-- A presenÃ§a dos convidados (dois do Rio de Janeiro e um de Curitiba)
+- A presença dos convidados (dois do Rio de Janeiro e um de Curitiba)
 
-- Os convidados mencionaram que gostaram bastante das cartas de criatividade e da dinÃ¢mica do dojo
+- Os convidados mencionaram que gostaram bastante das cartas de criatividade e da dinâmica do dojo
 
 - Mais elogios ao Haskell
 
-- O problema interessante e a soluÃ§Ã£o a que chegamos
+- O problema interessante e a solução a que chegamos
 
 Dos pontos negativos, foram citados:
 
-- nÃ£o resolvemos o problema que escolhemos no inÃ­cio, mas o problema inverso.
+- não resolvemos o problema que escolhemos no início, mas o problema inverso.
 
-- falta de mÃºsica (!). Foi colocado no vermelho e no parking lot.
+- falta de música (!). Foi colocado no vermelho e no parking lot.
 
-- avanÃ§amos um pouco no horÃ¡rio
+- avançamos um pouco no horário
 
 - muita conversa
 
-- foi sentida a falta da Jac, e das polarizaÃ§Ãµes Yoshi vs. Fabs.
+- foi sentida a falta da Jac, e das polarizações Yoshi vs. Fabs.
 
-- falta de comentÃ¡rios no cÃ³digo (mas este ponto foi comentado em seguida, e foi mencionado que a idÃ©ia Ã© que os testes sejam documentaÃ§Ã£o adequada para o cÃ³digo produzido a partir deles).
+- falta de comentários no código (mas este ponto foi comentado em seguida, e foi mencionado que a idéia é que os testes sejam documentação adequada para o código produzido a partir deles).
 <h3>Parking lot + Pizza</h3>
-Uma caracterÃ­stica particular deste dojo, elogiada na retrospectiva e discutida ao final, foi que cada um pÃ´de escolher utilizar o editor de sua preferÃªncia (desde que fosse vi ou emacs, nada de smultron!) na sua vez de comandar o teclado. Isto gerou alguma demora nas transiÃ§Ãµes, quando o piloto precisava iniciar e fazer as configuraÃ§Ãµes mÃ­nimas em seu ambiente, mas, de resto, funcionou surpreendentemente bem, embora nem todos tenham ficado satisfeitos.
+Uma característica particular deste dojo, elogiada na retrospectiva e discutida ao final, foi que cada um pôde escolher utilizar o editor de sua preferência (desde que fosse vi ou emacs, nada de smultron!) na sua vez de comandar o teclado. Isto gerou alguma demora nas transições, quando o piloto precisava iniciar e fazer as configurações mínimas em seu ambiente, mas, de resto, funcionou surpreendentemente bem, embora nem todos tenham ficado satisfeitos.
 
-Ao fim, todos nos divertimos muito, solucionamos o problema e estamos mais confortÃ¡veis com Haskell. Foi bom termos convidados, que pareceram gostar bastante da experiÃªncia. Esperamos que iniciem seus prÃ³prios dojos!
+Ao fim, todos nos divertimos muito, solucionamos o problema e estamos mais confortáveis com Haskell. Foi bom termos convidados, que pareceram gostar bastante da experiência. Esperamos que iniciem seus próprios dojos!

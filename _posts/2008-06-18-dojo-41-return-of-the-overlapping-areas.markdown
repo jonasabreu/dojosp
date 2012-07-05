@@ -11,48 +11,48 @@ wordpress_url: http://www.dojosp.epistemol.net/?p=15
 	<li><span style="color: #000000;"><strong>Data:</strong></span> 11/06/2008</li>
 	<li><span style="color: #000000;"><strong>Participantes:</strong></span> Thiago, Mari, Hugo, Yoshi e Breno</li>
 	<li><strong><span style="color: #000000;">Randori:</span></strong> <a href="http://icpcres.ecs.baylor.edu/onlinejudge/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=11&amp;page=show_problem&amp;problem=875">Overlapping Areas</a> em C, com o Dojo Unit Test</li>
-	<li><strong>CÃ³digo fonte:</strong> <a href="http://dojo_sp.googlegroups.com/web/41-OverlappingAreas.zip">http://dojo_sp.googlegroups.com/web/41-OverlappingAreas.zip</a></li>
+	<li><strong>Código fonte:</strong> <a href="http://dojo_sp.googlegroups.com/web/41-OverlappingAreas.zip">http://dojo_sp.googlegroups.com/web/41-OverlappingAreas.zip</a></li>
 </ul>
-Tiramos a carta <span style="color: #ff0000;">"Venda seu peixe"</span>. Nada mais prÃ³prio para um dia onde, numa situaÃ§Ã£o inÃ©dita, os problemas eram exatamente os mesmo do dojo anterior, mas com um porÃ©m: Se repetÃ­sse-mos <span style="color: #ff0000;">"Overlapping areas"</span>, continuarÃ­amos do ponto que paramos - para melhor ou para pior. E isso sÃ³ seria possÃ­vel por que todos os presentes estavam... Presentes na sessÃ£o anterior.
+Tiramos a carta <span style="color: #ff0000;">"Venda seu peixe"</span>. Nada mais próprio para um dia onde, numa situação inédita, os problemas eram exatamente os mesmo do dojo anterior, mas com um porém: Se repetísse-mos <span style="color: #ff0000;">"Overlapping areas"</span>, continuaríamos do ponto que paramos - para melhor ou para pior. E isso só seria possível por que todos os presentes estavam... Presentes na sessão anterior.
 
-Eram entÃ£o os problemas: <span style="color: #ff0000;">Eternal Truths</span>, <span style="color: #ff0000;">Water Flow</span> e <span style="color: #ff0000;">Overlapping Areas</span>.
-O Yoshi resolveu abraÃ§ar a causa da carta e vender a idÃ©ia de, finalmente, terminar um problema no Dojo. Como isso, sugeriu <span style="color: #ff0000;">Water Flow</span> - incontestavelmente o problema para a situaÃ§Ã£o.
+Eram então os problemas: <span style="color: #ff0000;">Eternal Truths</span>, <span style="color: #ff0000;">Water Flow</span> e <span style="color: #ff0000;">Overlapping Areas</span>.
+O Yoshi resolveu abraçar a causa da carta e vender a idéia de, finalmente, terminar um problema no Dojo. Como isso, sugeriu <span style="color: #ff0000;">Water Flow</span> - incontestavelmente o problema para a situação.
 
-Aberta a votaÃ§Ã£o, ficou evidente que ninguÃ©m estava interessado em procurar pela verdade eterna nos labirintos sagrados. A votaÃ§Ã£o entÃ£o ficou empatada, aguardando o voto da Mari para a decisÃ£o. Visivelmente o Yoshi vendeu seu peixe, uma vez que o empate sÃ³ se deu por que ele traiu seus persuadidos e votou no outro problema, apÃ³s ser persuadido pelo Thiago a votar no Retorno de <span style="color: #ff0000;">"Overlapping Areas"</span>. (Pode isso? Vai entender...) Frente a esse quadro, a Mari resolveu por escolher um <span style="color: #ff0000;">outro inÃ©dito</span>: repetir um problema no dojo. (Teria ela tambÃ©m sido persuadida pelo Thiago? Ou pelo Yoshi, que virou a casaca dele mesmo? Enfim...)
+Aberta a votação, ficou evidente que ninguém estava interessado em procurar pela verdade eterna nos labirintos sagrados. A votação então ficou empatada, aguardando o voto da Mari para a decisão. Visivelmente o Yoshi vendeu seu peixe, uma vez que o empate só se deu por que ele traiu seus persuadidos e votou no outro problema, após ser persuadido pelo Thiago a votar no Retorno de <span style="color: #ff0000;">"Overlapping Areas"</span>. (Pode isso? Vai entender...) Frente a esse quadro, a Mari resolveu por escolher um <span style="color: #ff0000;">outro inédito</span>: repetir um problema no dojo. (Teria ela também sido persuadida pelo Thiago? Ou pelo Yoshi, que virou a casaca dele mesmo? Enfim...)
 
-Como o problema era conhecido, buscamos sua <span style="color: #004586;">ToDo-List</span> para recomeÃ§ar. LembrÃ¡vamos de um problema com o <span style="font-family: Courier New,monospace;"><strong>qsort</strong></span>, mas nÃ£o estava claro qual. Como os testes feitos na sessÃ£o anterior passaram prontamente, pareceu que estava tudo sobre controle... Ledo engano.
+Como o problema era conhecido, buscamos sua <span style="color: #004586;">ToDo-List</span> para recomeçar. Lembrávamos de um problema com o <span style="font-family: Courier New,monospace;"><strong>qsort</strong></span>, mas não estava claro qual. Como os testes feitos na sessão anterior passaram prontamente, pareceu que estava tudo sobre controle... Ledo engano.
 
-Nosso novo alegre <span style="font-family: Times New Roman,serif;"><span>Dojo Unit</span></span>, agora <span style="color: #b80047;">c</span><span style="color: #579d1c;">o</span><span style="color: #660066;">l</span><span style="color: #cc6633;">o</span><span style="color: #008080;">r</span><span style="color: #6b4794;">i</span><span style="color: #9966cc;">d</span><span style="color: #ff6633;">o</span>, nÃ£o estava com um <span style="font-family: Courier New,monospace;"><strong>assert_same</strong></span> funcional. Percebemos isso quando ele disse ok para um teste que... NÃ£o estava ok. Demos um <span style="font-family: Courier New,monospace;"><strong>svn revert</strong></span> nele e migramos para o velho e sÃ³brio dojo unit do dojo 40.
+Nosso novo alegre <span style="font-family: Times New Roman,serif;"><span>Dojo Unit</span></span>, agora <span style="color: #b80047;">c</span><span style="color: #579d1c;">o</span><span style="color: #660066;">l</span><span style="color: #cc6633;">o</span><span style="color: #008080;">r</span><span style="color: #6b4794;">i</span><span style="color: #9966cc;">d</span><span style="color: #ff6633;">o</span>, não estava com um <span style="font-family: Courier New,monospace;"><strong>assert_same</strong></span> funcional. Percebemos isso quando ele disse ok para um teste que... Não estava ok. Demos um <span style="font-family: Courier New,monospace;"><strong>svn revert</strong></span> nele e migramos para o velho e sóbrio dojo unit do dojo 40.
 
-Superados os problemas de recomeÃ§ar, logo nos deparamos novamente com o estranho problema do quicksort, e este foi resolvido. Moral da hstÃ³ria? Macros sÃ£o Ãºteis, mas... <span style="color: #ff0000;">COLOQUE PARÃŠNTESES</span>! AvanÃ§amos mais um pouco no problema: comeÃ§amos a criar os eventos em X para verificar quais retÃ¢ngulos cruzam a linha de varredura. Com isso, ao soar o gongo para nossa retrospectiva, nosso <span style="color: #004586;">ToDo-List</span> ficou assim:
+Superados os problemas de recomeçar, logo nos deparamos novamente com o estranho problema do quicksort, e este foi resolvido. Moral da hstória? Macros são úteis, mas... <span style="color: #ff0000;">COLOQUE PARÊNTESES</span>! Avançamos mais um pouco no problema: começamos a criar os eventos em X para verificar quais retângulos cruzam a linha de varredura. Com isso, ao soar o gongo para nossa retrospectiva, nosso <span style="color: #004586;">ToDo-List</span> ficou assim:
 <ul>
-	<li><span style="color: #004586;">Estrutura de Dados para armazenar os 	retÃ¢gulos</span></li>
-	<li><span style="color: #004586;">Ordenar os retÃ¢ngulos pelo eixo x 	(varrer coordenadas â€˜xâ€™ dos retÃ¢ngulos)</span></li>
-	<li><span style="color: #004586;">Guardar os retÃ¢ngulos que cruzam 	a linha de varredura</span></li>
-	<li><span style="color: #004586;">Calcular quantos retÃ¢ngulos 	interessam e guardar o mÃ¡ximo.</span></li>
-	<li><span style="color: #004586;">Calcular a Ã¡rea</span></li>
+	<li><span style="color: #004586;">Estrutura de Dados para armazenar os 	retâgulos</span></li>
+	<li><span style="color: #004586;">Ordenar os retângulos pelo eixo x 	(varrer coordenadas â€˜xâ€™ dos retângulos)</span></li>
+	<li><span style="color: #004586;">Guardar os retângulos que cruzam 	a linha de varredura</span></li>
+	<li><span style="color: #004586;">Calcular quantos retângulos 	interessam e guardar o máximo.</span></li>
+	<li><span style="color: #004586;">Calcular a área</span></li>
 </ul>
 <h3>Retrospectiva</h3>
 <h4><span style="color: #579d1c;">Coisas Legais:</span></h4>
 <ol>
 	<li><span style="color: #000000;">O algoritmo Scanline, apesar de sua complexidade, despertou o interesse de muitos.</span></li>
-	<li><span style="color: #000000;">Continuar o problema tambÃ©m teve uma unisitada popularidade.</span></li>
-	<li><span style="color: #000000;">Dojo Unit colorido ficou mÃ³ legal!</span></li>
-	<li><span style="color: #000000;">O quick sort e seus ponteiros tambem tiveram seu destaque, tanto pela notaÃ§Ã£o quanto pelo 	seu funcionamento.</span></li>
-	<li><span style="color: #000000;">Macros sÃ£o legais, mas... <span style="color: #ff0000;">USE 	PARENTESES</span>!</span></li>
-	<li><span style="color: #000000;">Alternativa simples para listas ligadas com alocaÃ§Ã£o dinÃ¢mica de <span style="font-family: Courier New,monospace;"><strong>data 	***vetor</strong></span></span></li>
+	<li><span style="color: #000000;">Continuar o problema também teve uma unisitada popularidade.</span></li>
+	<li><span style="color: #000000;">Dojo Unit colorido ficou mó legal!</span></li>
+	<li><span style="color: #000000;">O quick sort e seus ponteiros tambem tiveram seu destaque, tanto pela notação quanto pelo 	seu funcionamento.</span></li>
+	<li><span style="color: #000000;">Macros são legais, mas... <span style="color: #ff0000;">USE 	PARENTESES</span>!</span></li>
+	<li><span style="color: #000000;">Alternativa simples para listas ligadas com alocação dinâmica de <span style="font-family: Courier New,monospace;"><strong>data 	***vetor</strong></span></span></li>
 </ol>
-<h4><span style="color: #c5000b;">Coisas nÃ£o legais:</span></h4>
+<h4><span style="color: #c5000b;">Coisas não legais:</span></h4>
 <ol>
-	<li>Retomar do ponto de parada nÃ£o Ã© fÃ¡cil</li>
-	<li>Mesmo retomando, nÃ£o terminamos</li>
-	<li>Dojo Unit colorido estava bonitinho, mas ainda nÃ£o 	pudemos usa-lo</li>
-	<li>Estrutura de dados do scanline Ã© complexa</li>
-	<li>Ainda nÃ£o sabemos testar <span style="font-family: Courier New,monospace;"><strong>malloc</strong></span> e <span style="font-family: Courier New,monospace;"><strong>free</strong></span>... :)</li>
-	<li>Fim de semestre: muito cansaÃ§o e poucas pessoas</li>
+	<li>Retomar do ponto de parada não é fácil</li>
+	<li>Mesmo retomando, não terminamos</li>
+	<li>Dojo Unit colorido estava bonitinho, mas ainda não 	pudemos usa-lo</li>
+	<li>Estrutura de dados do scanline é complexa</li>
+	<li>Ainda não sabemos testar <span style="font-family: Courier New,monospace;"><strong>malloc</strong></span> e <span style="font-family: Courier New,monospace;"><strong>free</strong></span>... :)</li>
+	<li>Fim de semestre: muito cansaço e poucas pessoas</li>
 </ol>
 <span style="color: #004586;">Durante a (espera pela) pizza, discutimos algumas coisinhas:</span>
 
-Por que nÃ£o usar o <span style="font-family: Courier New,monospace;"><strong>== </strong></span>ao invÃ©s de <span style="font-family: Courier New,monospace;"><strong>assert_same</strong></span>? Infelizmente nÃ£o estamos em C++ e, portanto nÃ£o podemos sobrecarregar o operador. Um uso ingÃªnuo de <span style="font-family: Courier New,monospace;"><strong>==</strong></span> nÃ£o compararia toda a estrutura e, portanto, nÃ£o daria o resultado esperado...
+Por que não usar o <span style="font-family: Courier New,monospace;"><strong>== </strong></span>ao invés de <span style="font-family: Courier New,monospace;"><strong>assert_same</strong></span>? Infelizmente não estamos em C++ e, portanto não podemos sobrecarregar o operador. Um uso ingênuo de <span style="font-family: Courier New,monospace;"><strong>==</strong></span> não compararia toda a estrutura e, portanto, não daria o resultado esperado...
 
-Para aproveitar melhor o <span style="color: #004586;">parking lot</span>, devemos distribuir os postits brancos no comeÃ§o. Assim podermos anotar as dÃºvidas on-line e nÃ£o deixar nada de lado!
+Para aproveitar melhor o <span style="color: #004586;">parking lot</span>, devemos distribuir os postits brancos no começo. Assim podermos anotar as dúvidas on-line e não deixar nada de lado!

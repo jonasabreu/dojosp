@@ -5,7 +5,7 @@ title: Dojo Tarde - 03
 date: 2008-04-10 14:55:28 -03:00
 wordpress_url: http://www.dojosp.epistemol.net/?p=3
 ---
-Participantes: Hugo, Mari, Flores, MÃ¡rio
+Participantes: Hugo, Mari, Flores, Mário
 Problema: <a title="TeX Quotes" href="http://online-judge.uva.es/problemset/v2/272.html" target="_blank">Tex Quotes</a>
 Linguagem: Smalltalk
 Ambiente: Squeak
