@@ -11,21 +11,19 @@ Linguagem: Smalltalk
 Ambiente: Squeak
 Fonte: <a href="http://www.dojosp.org/wp-content/uploads/2008/04/dojotarde03-texquotes1.zip">dojotarde03-texquotes1</a>
 
-Como estÃ¡vamos preocupados pelo fato de nÃ£o estarmos conseguindo resolver problemas simples no Dojo Tarde, escolhemos um problema bem simples.
+Como estávamos preocupados pelo fato de não estarmos conseguindo resolver problemas simples no Dojo Tarde, escolhemos um problema bem simples.
 
-O principal desafio foi como resolver um problema inicialmente de programaÃ§Ã£o procedural utilizando SmallTalk e conseqÃ¼entemente orientaÃ§Ã£o a objeto.
+O principal desafio foi como resolver um problema inicialmente de programação procedural utilizando SmallTalk e consequentemente orientação a objeto.
 
-Primeiramente, fizemos mÃ©todos que trocavam " por `` ou Â´Â´ dependendo de uma variÃ¡vel booleana denominada <strong>aspasAbertas</strong>. O Hugo, para deixar o problema mais orientado a objeto, sugeriu fazermos um substituidor esquerdo e um substituidor direito para substituir as aspas dependendo do caso. Em uma refatoraÃ§Ã£o, foi sugerido que as duas classes de substituidor (direito e esquerdo) herdarem de uma classe substituidor. TambÃ©m tivemos que aprender como funciona o escape de caracteres em Smalltalk.
+Primeiramente, fizemos métodos que trocavam " por \`\` ou '' dependendo de uma variável booleana denominada <strong>aspasAbertas</strong>. O Hugo, para deixar o problema mais orientado a objeto, sugeriu fazermos um substituidor esquerdo e um substituidor direito para substituir as aspas dependendo do caso. Em uma refatoração, foi sugerido que as duas classes de substituidor (direito e esquerdo) herdarem de uma classe substituidor. Também tivemos que aprender como funciona o escape de caracteres em Smalltalk.
 
-Como estÃ¡vamos tratando caracteres simples como strings, ao tentarmos fazer o teste da validaÃ§Ã£o que quebrava uma string em caracteres, tivemos que passar os caracteres como string.
+Como estávamos tratando caracteres simples como strings, ao tentarmos fazer o teste da validação que quebrava uma string em caracteres, tivemos que passar os caracteres como string.
 
-Coisas boas/aprendizados: Smalltalk, OrientaÃ§Ã£o a Objeto, Polimorfismo, HeranÃ§a, Terminamos um Problema, Tempo compatÃ­vel, caracter a pode ser escrito como $a.
+Coisas boas/aprendizados: Smalltalk, Orientação a Objeto, Polimorfismo, Herança, Terminamos um Problema, Tempo compatí­vel, caracter a pode ser escrito como $a.
 
 Coisas ruins: Pouca gente (3x), tela do Mac escurecendo, Responsabilidade Concentrada (escriba, encarregado do projetor, "abridor" de sala, moderador).
 
-Coisas a se pensar: Como atrair mais gente ?,<a href="http://www.dojosp.org/wp-content/uploads/2008/04/dojotarde03-texquotes1.zip"></a> Kata no prÃ³ximo Dojo!
+Coisas a se pensar: Como atrair mais gente ?,<a href="http://www.dojosp.org/wp-content/uploads/2008/04/dojotarde03-texquotes1.zip"></a> Kata no próximo Dojo!
 
 Semana que vem tem Dojo no FISL!
 
-<a href="http://www.dojosp.org/wp-content/uploads/2008/04/dojotarde03-texquotes1.zip">
-</a>
