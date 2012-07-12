@@ -9,7 +9,7 @@ author: ale_borba
 	<li><strong>Horário:</strong> 19:30h</li>
 	<li><strong>Participantes:</strong> Alê Borba, Anderson Paiva, Ricardo Boccato, Carlos Corrêa Carlito Justino, Danilo Bellini, Gustavo Kawamoto, Guto Maia, Johann Vivot, Kaique da Silva, Kleber Correia, Plinio Balduino Rafael Novello, Roberto Rodrigues, Robinson Rios, Vinícius Ferreira</li>
 	<li><strong>Problema:</strong> <a href="http://dojopuzzles.com/problemas/exibe/problema-do-miojo/">Problema do Miojo</a></li>
-	<li><strong>Código:</strong> no <a href="https://github.com/iMastersDev/DojosiM/tree/master/dojo11-07-12">github</a</li>
+	<li><strong>Código:</strong> no <a href="https://github.com/iMastersDev/DojosiM/tree/master/dojo11-07-12">github</a></li>
 	<li><strong>Formato</strong><strong>: </strong>Kata</li>
 </ul>
 O problema foi escolhido pela curiosidade que levantou nos participantes e pela possível complexidade. Resumidamente ele consistia em se passar o tempo exato do cozimento do miojo e o valor de tempo das duas ampuletas, tendo como saida o menor tempo possível para a preparação do miojo.
