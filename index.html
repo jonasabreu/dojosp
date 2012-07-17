@@ -4,6 +4,7 @@ layout: default
 
 {% for page in site.posts limit:10 %}
 	{% include post_begin.html %}
+	{{ page.content | unindent | markdownify }}
 	{% include post_end.html %}
 {% endfor %}
 

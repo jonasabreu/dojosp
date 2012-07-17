@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
-
 {% include post_begin.html %}
+
+{{ page.content | unindent | markdownify }}
 
 {% if site.disqus %}
 <div id="comments">
