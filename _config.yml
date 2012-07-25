@@ -1,6 +1,6 @@
 # standard jekyll configuration
 
-permalink: date
+permalink: none
 pygments: true
 exclude: ['Rakefile', 'README.md', 'config.rb', 'deploy.sh']
 markdown: rdiscount
