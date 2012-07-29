@@ -17,10 +17,10 @@ Foram desconstruidos vários conceitos, como o de funções das linguagens imper
 
 O código e os slides serão disponibilizados em breve no slideshare.net.
 
-<img src="wp-content/uploads/2012/07/desconstruindofuncoes.jpg" alt="Desconstruindo Funções!" title="Desconstruindo Funções" width="400" heigh="200" />
+<img src="/wp-content/uploads/2012/07/desconstruindofuncoes.jpg" alt="Desconstruindo Funções!" title="Desconstruindo Funções" width="400" heigh="200" />
 
 "Code is poetry"
 
-<img src="wp-content/uploads/2012/07/participantesdojofsharp.jpg" alt="Participantes Dojo F#" title="Participantes Dojo F#" width="400" heigh="200" />
+<img src="/wp-content/uploads/2012/07/participantesdojofsharp.jpg" alt="Participantes Dojo F#" title="Participantes Dojo F#" width="400" heigh="200" />
 
 Participantes do Dojo!
