@@ -1,0 +1,19 @@
+--- 
+layout: post
+title: "Coding Dojo @ iMasters #7"
+date: 2012-12-11 19:30:00 -03:00
+author: ale_borba
+---
++ **Data:** 11/12/2012
++ **Horário:** 19:30h
++ **Linguagem:** Ruby
++ **Problema:** [Encontrando arquivos duplicados](http://dojopuzzles.com/problemas/exibe/encontrando-arquivos-duplicados/)
++ **Código:** [Github](https://github.com/iMastersDev/DojosiM/tree/master/dojo11-12-12)
+
+Coding Dojo bem dinâmico, infelizmente com poucos novatos, mas bastante divertido. A linguagem e o problema foram escolhidos na hora e por diferença de apenas um voto escolhemos a linguagem Ruby e o problema que consistia em encontrar arquivos duplicados.
+
+O tutor da fez foi o Leandro Facchinetti, que desempenhou muito bem o papel, sempre deixando todos bastante a vontade com a linguagem e ensinado vários truques bacanas. Dessa vez não esquecemos de utilizar o git durante os sprints e tudo o que foi feito foi commitado. o/
+
+Excelente final de anos a todos e muito Coding Dojos para o ano de 2013!!! \o/
+
+How How How! :P (piadinha infame!)
