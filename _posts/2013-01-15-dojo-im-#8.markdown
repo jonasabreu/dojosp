@@ -1,0 +1,20 @@
+--- 
+layout: post
+title: "Coding Dojo @ iMasters #8"
+date: 2013-01-15 19:30:00 -02:00
+author: ale_borba
+---
++ **Data:** 15/01/2013
++ **Horário:** 19:30h
++ **Linguagem:** PHP
++ **Problema:** [Roleta Romana](http://dojopuzzles.com/problemas/exibe/roleta-romana/)
+
+O primeiro Coding Dojo do ano no [iMasters](http://imasters.com.br) foi feito utilizando PHP e contou com a participação da comunidade PHP de São Paulo, o [PHP-SP](http://phpsp.org.br). Tivemos 3 bons tutores e o Dojo, com relação a linguagem, nada deixou a desejar. O problema escolhido também foi bem didático e ajudou bastante pelo fato de ser simples de entender e de implementar.
+
+Um ponto em que pecamos foi o uso do editor Vim para codar (Xiitas não me matem). Eu, particularmente, gosto muito do Vim e acho bem bacana que as pessoas aprendam a utilizá-lo, mas como o PHP não era dominado por todos, idem para o Vim, foi muita novidade de uma só vez, e fez com que, várias vezes, o piloto emperrasse no uso do editor.
+
+Uma coisa que vale muito destacar foi a desmistificação de que PHP não possui testes unitários e não se consegue fazer TDD e outros métodos ágeis usando a linguagem. Os tutores e membros da comunidade provaram que isto é um mito e que dá sim para se fazer boas coisas e usar boas práticas de programação, desenvolvimento ágil e TDD utilizando o PHP.
+
+Este foi um dos Coding Dojos de maior participação do pessoal e teve uma conversão de quase 100% das pessoas que se inscreveram no encontro!
+
+Let's Hack The Planet!
