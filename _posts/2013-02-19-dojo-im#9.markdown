@@ -1,0 +1,24 @@
+--- 
+layout: post
+title: "Coding Dojo Python @ iMasters"
+date: 2013-02-19 19:00:00 -03:00
+author: ale_borba
+---
++ **Data:** 19/02/2013
++ **Horário:** 19:30h
++ **Linguagem:** Python
++ **Problema:** [Jogo da Vida](http://dojopuzzles.com/problemas/exibe/jogo-da-vida/)
++ **Formato:** Kata
+
+Neste Coding Dojo nós usamos Python como linguagem e o problema escolhido foi o Jogo da Vida. O grande diferencial desta edição é que usamos o tão famoso (e pedido pelo Danilo Bellini) pytest usando o [Dose](https://github.com/danilobellini/dose).
+
+O fato de ter um semáforo o tempo todo na tela, avisando a todo o momento como o código estava, ou verde ou vermelho, ajudou bastante e foi bem legal usar essa ferramenta. Mas isso não impediu a galera de gerar conversas paralelas e nem de conversar no vermelho. Ok, confesso que inibiu, mas nem tanto.
+
+Umas das partes mais interessantes (e que se tornaram, também, uma das mais confusas no final) foi o uso dos testes parametrizados, funcionalidade específica do Pytest. Isso ajudou bastante na criação dos testes, mas acabou confundindo um pouco a cabeça das pessoas.
+
+O conhecimento avançado do tutor deste Coding Dojo (Danilo Bellini) cooperou muito para que todos aprendessem coisas bem especificas da linguagem Python, como list comprehension, pytest e parametrize, além de termos usado um editor que poucos conheciam, o Spyder.
+
+Veja as fotos da galera deste Coding Dojo:
+
+<img src="/wp-content/uploads/2013/02/imasters9-1.jpg" alt="Let's Dojo!" title="Let's Dojo!" width="400" heigh="200" />
+<img src="/wp-content/uploads/2013/02/imasters9-2.jpg" alt="Let's Dojo!" title="Let's Dojo!" width="200" heigh="400" />
