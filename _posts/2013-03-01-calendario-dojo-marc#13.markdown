@@ -5,7 +5,7 @@ date: 2013-03-01 15:10:00 -03:00
 author: ale_borba
 ---
 
-No mês de março já temos dois Coding Dojos agendados pra galera!
+No mês de março já temos três Coding Dojos agendados pra galera!
 
 + **Data:** 05/03/2013
 + **Horário:** 19:00h
@@ -16,6 +16,14 @@ No mês de março já temos dois Coding Dojos agendados pra galera!
 Para se inscrever:
 [Coding Dojo PHP @ Dev Buscapé Company](http://www.surveymonkey.com/s/B9D6NS8)
 
++ **Data:** 06/03/2013
++ **Horário:** 19:00h
++ **Problema:** A definir por votação entre os presentes
++ **Linguagem:** Python
++ **Local:** Google Brasil
+
+Para se inscrever:
+[Coding Dojo Python @ Google](https://docs.google.com/forms/d/1VCzGnhWqzrxHMoGCcamn9K3pS1zHO-YOIuOiQu-n_7w/viewform)
 
 + **Data:** 12/03/2013
 + **Horário:** 19:30h
