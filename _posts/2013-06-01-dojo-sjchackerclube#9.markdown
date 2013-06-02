@@ -10,7 +10,7 @@ author: ale_borba
 + **Problema:** [Geração de Fatores Primos](http://dojopuzzles.com/problemas/exibe/geracao-de-fatores-primos/)
 + **Formato:** RandoriKata
 + **Participantes:** Ale, Yuri, Fábio
-+ **Gist:** [https://gist.github.com/aleborba/5692126](https://gist.github.com/aleborba/5692126)
++ **Código:** [Github](https://github.com/sjchackerclube/Dojos/blob/master/fator_primo.py)
 
 Este Coding Dojo foi o primeiro realizado na sede do Hackerspace de São José dos Campos, o [SJC HackerClube](http://sjchackerclube.com.br/). Neste Dojo nós usamos Python como linguagem e o problema escolhido foi a Geração de Fatores Primos.
 
