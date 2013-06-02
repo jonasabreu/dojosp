@@ -15,6 +15,13 @@ No mês de junho já temos quatro Coding Dojos agendados pra galera!
 Para saber mais:
 [Agenda PoliGNU](http://www.polignu.org/agenda)
 
++ **Data:** 08/06/2013
++ **Horário:** 15:00h
++ **Formato:** [RandoriKata](http://codingdojo.org/cgi-bin/wiki.pl?RandoriKata)
++ **Local:** [SJC Hacker Clube](http://sjchackerclube.com.br/)
+
+Para participar basta aparecer! o/
+
 + **Data:** 11/06/2013
 + **Horário:** 19:00h
 + **Tecnologia:** [AWS Elastic Beanstalk](http://aws.amazon.com/pt/elasticbeanstalk/)
