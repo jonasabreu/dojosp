@@ -7,6 +7,14 @@ author: ale_borba
 
 No mês de junho já temos uma lista de Coding Dojos agendados pra galera!
 
++ **Data:** 06/06/2013
++ **Horário:** 19:00h
++ **Linguagem:** A ser definida
++ **Local:** Das Dad
+
+Para se inscrever:
+[7º Coding Dojo na Das Dad](http://7-coding-dojo-na-das-dad.eventbrite.com/)
+
 + **Data:** 07/06/2013
 + **Horário:** 11:00h
 + **Linguagem:** Python
