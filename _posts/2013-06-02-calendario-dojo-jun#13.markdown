@@ -5,7 +5,7 @@ date: 2013-06-02 10:10:00 -03:00
 author: ale_borba
 ---
 
-No mês de junho já temos quatro Coding Dojos agendados pra galera!
+No mês de junho já temos uma lista de Coding Dojos agendados pra galera!
 
 + **Data:** 07/06/2013
 + **Horário:** 11:00h
