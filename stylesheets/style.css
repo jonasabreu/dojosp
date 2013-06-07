@@ -132,6 +132,9 @@ a img {
 	voice-family: inherit;
 	width: 470px;
 } 
+#content img {
+	max-width: 460px;
+}
 html>body #content {
 	width: 470px;
 }
