@@ -17,7 +17,7 @@ que são em terças feiras.
 
 Neste Coding Dojo tivemos a tutoria do [@fer_bass](http://twitter.com/fer_bass), além de
 grande amigo, um excelente programador. Ele trouxe um problema já em mente, que foi o
-**Fator Primo**, e também já veio com a ideia de usarmos o [Pharo](pharo-project.org) como
+**Fator Primo**, e também já veio com a ideia de usarmos o [Pharo](http://pharo-project.org) como
 IDE para o Coding Dojo.
 
 Tivemos alguns problemas no início, pois o HD do @fer_bass queimou na noite anterior e toda
