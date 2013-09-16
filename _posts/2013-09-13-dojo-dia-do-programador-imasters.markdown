@@ -21,7 +21,7 @@ grande amigo, um excelente programador. Ele trouxe um problema já em mente, que
 IDE para o Coding Dojo.
 
 Tivemos alguns problemas no início, pois o HD do @fer_bass queimou na noite anterior e toda
-a apresentação introdutória e ambiente preparado estavão nele. Isso dificultou o inicio dos 
+a apresentação introdutória e ambiente preparado estavam nele. Isso dificultou o inicio dos 
 trabalhos, mas não impediu que a introdução a linguagem fosse abordade de forma bastante 
 completa pelo Fernando.
 
