@@ -7,10 +7,10 @@ author: ale_borba
 + **Data:** 27/02/2014
 + **Horário:** 19:30
 + **Linguagem:** Python
-+ **Problema:** [Cheque por extenso]()
++ **Problema:** [Cheque por extenso](http://dojopuzzles.com/problemas/exibe/cheque-por-extenso/)
 + **Formato:** RandoriKata
 
-Este foi o primeiro Coding Dojo do ano organizado pelo pessoal do [GruPy]() e também o primeiro encontro do GruPy no novo escritório do [iMasters](http://imasters.com.br). O problema escolhido foi o "Cheque por extenso" que, basicamente, tem como entrada um valor monetário e como saida o mesmo valor por extenso.
+Este foi o primeiro Coding Dojo do ano organizado pelo pessoal do [GruPy](https://groups.google.com/forum/#!forum/grupy-sp) e também o primeiro encontro do GruPy no novo escritório do [iMasters](http://imasters.com.br). O problema escolhido foi o "Cheque por extenso" que, basicamente, tem como entrada um valor monetário e como saida o mesmo valor por extenso.
 
 Tivemos neste dojo várias caras novas e discussões muito saudáveis e acaloradas a respeito de diversas práticas adotadas por programadores Python. 
 
