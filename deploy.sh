@@ -1,6 +1,14 @@
-#! /bin/bash
+#! /bin/bash --login
 
-jekyll || /var/lib/gems/1.8/bin/jekyll
+set -e
+
+source ~/.rvm/scripts/rvm
+
+rm -fr _site
+
+rvm use 2.1.2
+bundle install
+jekyll build
 
 /home/ubuntu/bin/s3-jekyll-deploy/s3-jekyll-deploy www.dojosp.org
 
